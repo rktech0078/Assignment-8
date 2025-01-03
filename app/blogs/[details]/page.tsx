@@ -47,16 +47,16 @@ export default function Page(props: { params: { details: string } }) {
         );
     }
 
-    if (error) {
-        // Error message
-        return (
-            <div className="flex justify-center items-center min-h-screen">
-                <div className="alert alert-error">
-                    <span>{error}</span>
-                </div>
-            </div>
-        );
-    }
+    // if (error) {
+    //     // Error message
+    //     return (
+    //         <div className="flex justify-center items-center min-h-screen">
+    //             <div className="alert alert-error">
+    //                 <span>{error}</span>
+    //             </div>
+    //         </div>
+    //     );
+    // }
 
     return (
         <>
@@ -95,7 +95,7 @@ export default function Page(props: { params: { details: string } }) {
                                     />
                                 </svg>
                                 <span>Warning: Invalid blog page!</span>
-                                <h1>The Error is {error}</h1>
+                                <h1>The Error is: Error</h1>
                             </div>
                         )}
                     </div>
