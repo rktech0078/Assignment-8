@@ -95,7 +95,7 @@ export default function Page(props: { params: { details: string } }) {
                                     />
                                 </svg>
                                 <span>Warning: Invalid blog page!</span>
-                                <h1>The Error is: Error</h1>
+                                <h1>The Error is: {error}</h1>
                             </div>
                         )}
                     </div>
