@@ -21,7 +21,7 @@ export default function Page(props: { params: { details: string } }) {
                 const result: Data[] = await client.fetch(`*[_type == 'blogs']{title, body, category, 'image': image.asset->url}`);
                 setData(result);
                 setLoading(false); // Set loading to false after data is fetched
-            } catch (err) {
+            } catch (error) {
                 setError('Failed to fetch data.');
                 setLoading(false);
             }

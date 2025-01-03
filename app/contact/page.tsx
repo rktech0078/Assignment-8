@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Page() {
@@ -9,7 +10,10 @@ export default function Page() {
                 <div className='mb-7'>
                     <div className="carousel w-full">
                         <div id="slide1" className="carousel-item relative w-full">
-                            <img
+                            <Image
+                                alt='RAFAY'
+                                height={100}
+                                width={100}
                                 src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
                                 className="w-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -18,7 +22,10 @@ export default function Page() {
                             </div>
                         </div>
                         <div id="slide2" className="carousel-item relative w-full">
-                            <img
+                            <Image
+                                alt='RAFAY'
+                                height={100}
+                                width={100}
                                 src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
                                 className="w-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -27,7 +34,10 @@ export default function Page() {
                             </div>
                         </div>
                         <div id="slide3" className="carousel-item relative w-full">
-                            <img
+                            <Image
+                                alt='RAFAY'
+                                height={100}
+                                width={100}
                                 src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
                                 className="w-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -36,7 +46,10 @@ export default function Page() {
                             </div>
                         </div>
                         <div id="slide4" className="carousel-item relative w-full">
-                            <img
+                            <Image
+                                alt='RAFAY'
+                                height={100}
+                                width={100}
                                 src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
                                 className="w-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -54,7 +67,7 @@ export default function Page() {
                             <div className="text-center lg:text-left">
                                 <h1 className="text-5xl font-bold">Login now!</h1>
                                 <p className="py-6">
-                                    Provident your access to exclusive content and features by logging in. Don't miss out on the latest updates and personalized experiences tailored just for you.
+                                    Provident your access to exclusive content and features by logging in. Dont miss out on the latest updates and personalized experiences tailored just for you.
                                 </p>
                             </div>
                             <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
