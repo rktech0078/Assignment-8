@@ -80,6 +80,7 @@ export default function Page(props: { params: { details: string } }) {
                                 />
                             </svg>
                             <span>Warning: Invalid blog page!</span>
+                            <span>Please try again a while</span>
                         </div>
                     )}
                 </div>
