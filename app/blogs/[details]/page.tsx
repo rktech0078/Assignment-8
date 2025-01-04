@@ -13,7 +13,7 @@ type Data = {
 export default function Page(props: { params: { details: string } }) {
     const [data, setData] = useState<Data[] | null>(null);
     const [loading, setLoading] = useState<boolean>(true); // Track loading state
-    const [error, setError] = useState<string | null>(null);
+    // const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -22,7 +22,7 @@ export default function Page(props: { params: { details: string } }) {
                 setData(result);
                 setLoading(false); // Set loading to false after data is fetched
             } catch (error) {
-                setError('Failed to fetch data.');
+                // setError('Failed to fetch data.');
                 setLoading(false);
             }
         };
@@ -95,7 +95,7 @@ export default function Page(props: { params: { details: string } }) {
                                     />
                                 </svg>
                                 <span>Warning: Invalid blog page!</span>
-                                <h1>The Error is: {error}</h1>
+                                {/* <h1>The Error is: {error}</h1> */}
                             </div>
                         )}
                     </div>
